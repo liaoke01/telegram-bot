@@ -1,5 +1,4 @@
 from telegram import Bot, Update, ParseMode
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filtersfrom telegram import Bot, Update, ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # 替换为你的机器人API token
