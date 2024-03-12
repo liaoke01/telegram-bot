@@ -23,6 +23,7 @@ jobs:
 
     - name: Run Telegram Bot
       run: |
+        wget https://github.com/liaoke01/telegram-bot/blob/main/main.py
         python main.py
       env:
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
