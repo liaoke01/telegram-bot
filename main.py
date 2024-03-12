@@ -1,5 +1,6 @@
-from telegram import Bot, Update, ParseMode
+from telegram import Bot, Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.constants import ParseMode
 
 # 替换为你的机器人API token
 TOKEN = 'YOUR_BOT_TOKEN'
